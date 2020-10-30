@@ -1,0 +1,108 @@
+.centered {
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    width: 90%;
+}
+
+.plantList {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+body {
+    background-color: rgb(181, 243, 181);
+}
+
+h1 {
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Courgette';
+}
+
+h5 {
+    font-family: 'Noto Sans';
+}
+
+h6 {
+    font-family: 'Kalam';
+}
+
+.card {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    width: 25%;
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034);
+}
+
+hr {
+    width: 80%;
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+/* permanent-marker-regular - latin */
+@font-face {
+    font-family: 'Permanent Marker';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/permanent-marker-v10-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local('Permanent Marker Regular'), local('PermanentMarker-Regular'),
+         url('./fonts/permanent-marker-v10-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('./fonts/permanent-marker-v10-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./fonts/permanent-marker-v10-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('./fonts/permanent-marker-v10-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('./fonts/permanent-marker-v10-latin-regular.svg#PermanentMarker') format('svg'); /* Legacy iOS */
+  }
+
+/* courgette-regular - latin */
+@font-face {
+    font-family: 'Courgette';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/courgette-v8-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local('Courgette Regular'), local('Courgette-Regular'),
+         url('./fonts/courgette-v8-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('./fonts/courgette-v8-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./fonts/courgette-v8-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('./fonts/courgette-v8-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('./fonts/courgette-v8-latin-regular.svg#Courgette') format('svg'); /* Legacy iOS */
+  }
+
+/* kalam-regular - latin */
+@font-face {
+    font-family: 'Kalam';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/kalam-v11-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local('Kalam'), local('Kalam-Regular'),
+         url('./fonts/kalam-v11-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('./fonts/kalam-v11-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./fonts/kalam-v11-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('./fonts/kalam-v11-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('./fonts/kalam-v11-latin-regular.svg#Kalam') format('svg'); /* Legacy iOS */
+  }
+
+/* noto-sans-regular - latin */
+@font-face {
+    font-family: 'Noto Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/noto-sans-v11-latin-regular.eot'); /* IE9 Compat Modes */
+    src: local('Noto Sans'), local('NotoSans'),
+         url('./fonts/noto-sans-v11-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('./fonts/noto-sans-v11-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('./fonts/noto-sans-v11-latin-regular.woff') format('woff'), /* Modern Browsers */
+         url('./fonts/noto-sans-v11-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('./fonts/noto-sans-v11-latin-regular.svg#NotoSans') format('svg'); /* Legacy iOS */
+  }
